@@ -1,0 +1,163 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style:none;
+    box-sizing:border;
+    font-family: 'Quicksand', sans-serif;
+}
+
+
+
+body{
+    overflow-x:hidden;
+}
+
+a{
+    color:black;
+}
+
+a:hover{
+    color:#dba88a;
+    transition: 0.5s;
+}
+
+#home{
+    color:#dba88a;
+}
+
+#header{
+    width: 100%;
+    height: 60px;
+    line-height:60px;
+    background-color:#f5e7df;
+    text-align:center;
+    font-size:15px;
+    color:#8c878e;
+}
+
+#menu{
+    text-align: center;
+    margin-top:60px;
+}
+
+.menubar li{
+    margin-top:15px;
+    display:inline-block;
+    padding:15px;
+}
+
+.menubar li ul {
+    background: white;
+    display:none;  /* 평상시에는 서브메뉴가 안보이게 하기 */
+    height:auto;
+    position:absolute;
+    width:200px;
+    z-index:200;
+    text-align: center;
+    }
+ 
+.menubar li:hover ul {
+    display:block;   /* 마우스 커서 올리면 서브메뉴 보이게 하기 */
+    position:absolute;
+    left:0;
+    margin-left:800px;
+}
+
+  
+#home{
+    color:#dba88a;
+}
+
+#main img{
+    width: 100%;
+    margin-top:30px;
+}
+
+#two div{
+    width: 50%;
+    float:left;
+    height: 350px;
+    color:white;
+    text-align: center;
+    line-height: 350px;
+    font-size:45px;
+    margin-bottom:150px;
+}
+
+#two div:nth-child(1){
+    background-color:black;
+}
+
+#two #white{
+    float:right;
+    background-color: #f5e7df;
+    color:#64564f;
+}
+
+#candles p{
+    text-align:center;
+    font-size:25px;
+}
+
+#img_menu{
+    text-align:center;
+    margin-bottom:80px;
+}
+
+#candles #img_menu div{
+    margin-top:70px;
+    width: 320px;
+    height: 320px;
+    padding:10px;
+    background-color: red;
+    display:inline-block;
+}
+
+#join{
+    width: 100%;
+    height: 300px;
+    background-color:#f5e7df;
+}
+
+
+#email{
+    width: 50%;
+    float:left;
+    text-align:center;
+}
+    
+#sub_menu{
+    width: 50%;
+    float:right;
+}
+
+#email_title{
+    margin-top:50px;
+    margin-left:50%;
+    font-size:20px;
+}
+
+#left_form{
+    width: 30px;
+    text-align:center;
+}
+
+table{
+    border:1px solid magenta;
+}
+
+i{
+    margin-right:20px;
+}
+
+input{
+    background:none;
+    border:none;
+    width: 350px;
+    height: 40px;
+}
+
+input::placeholder {
+    font-size:17px;
+  }

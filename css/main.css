@@ -1,0 +1,275 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style:none;
+    box-sizing:border;
+    font-family: 'Quicksand', sans-serif;
+}
+
+
+
+body{
+    overflow-x:hidden;
+}
+
+a{
+    color:black;
+}
+
+a:hover{
+    color:#dba88a;
+    transition: 0.5s;
+}
+
+#home{
+    color:#dba88a;
+}
+
+#header{
+    width: 100%;
+    height: 60px;
+    line-height:60px;
+    background-color:#f5e7df;
+    text-align:center;
+    font-size:15px;
+    color:#8c878e;
+}
+
+#menu{
+    text-align: center;
+    margin-top:60px;
+}
+
+.menubar li{
+    margin-top:15px;
+    display:inline-block;
+    padding:15px;
+}
+
+.menubar li ul {
+    background: white;
+    display:none;  /* 평상시에는 서브메뉴가 안보이게 하기 */
+    height:auto;
+    position:absolute;
+    width:200px;
+    z-index:200;
+    text-align: center;
+    }
+ 
+.menubar li:hover ul {
+    display:block;   /* 마우스 커서 올리면 서브메뉴 보이게 하기 */
+    position:absolute;
+    left:0;
+    margin-left:800px;
+}
+
+  
+#home{
+    color:#dba88a;
+}
+
+#main img{
+    width: 100%;
+    margin-top:30px;
+}
+
+#two div{
+    width: 50%;
+    float:left;
+    height: 350px;
+    color:white;
+    text-align: center;
+    line-height: 350px;
+    font-size:45px;
+    margin-bottom:150px;
+}
+
+#two div:nth-child(1){
+    background-color:black;
+}
+
+#two #white{
+    float:right;
+    background-color: #f5e7df;
+    color:#64564f;
+}
+
+#candles p{
+    text-align:center;
+    font-size:25px;
+}
+
+#img_menu{
+    text-align:center;
+    margin-bottom:80px;
+}
+
+#candles #img_menu div:nth-child(1){
+    margin-top:70px;
+    width: 320px;
+    height: 320px;
+    padding:10px;
+    background:url(../img/img1.jpg);
+    background-size:cover;
+    display:inline-block;
+}#candles #img_menu div:nth-child(1):hover{
+    cursor: pointer;
+    background:url(../img/img6.jpg);
+    background-size:cover;
+}
+
+#candles #img_menu div:nth-child(2){
+    margin-top:70px;
+    width: 320px;
+    height: 320px;
+    padding:10px;
+    background:url(../img/img2.jpg);
+    background-size:cover;
+    display:inline-block;
+}#candles #img_menu div:nth-child(2):hover{
+    cursor: pointer;
+    background:url(../img/img7.jpg);
+    background-size:cover;
+}
+
+
+#candles #img_menu div:nth-child(3){
+    margin-top:70px;
+    width: 320px;
+    height: 320px;
+    padding:10px;
+    background:url(../img/img3.jpg);
+    background-size:cover;
+    display:inline-block;
+}#candles #img_menu div:nth-child(3):hover{
+    cursor: pointer;
+    background:url(../img/img8.jpg);
+    background-size:cover;
+}
+
+#candles #img_menu div:nth-child(4){
+    margin-top:70px;
+    width: 320px;
+    height: 320px;
+    padding:10px;
+    background:url(../img/img4.jpg);
+    background-size:cover;
+    display:inline-block;
+}#candles #img_menu div:nth-child(4):hover{
+    cursor: pointer;
+    background:url(../img/img9.jpg);
+    background-size:cover;
+}
+
+#candles #img_menu div:nth-child(5){
+    margin-top:70px;
+    width: 320px;
+    height: 320px;
+    padding:10px;
+    background:url(../img/img5.jpg);
+    background-size:cover;
+    display:inline-block;
+}#candles #img_menu div:nth-child(5):hover{
+    cursor: pointer;
+    background:url(../img/img10.jpg);
+    background-size:cover;
+}
+
+
+#join{
+    width: 100%;
+    height: 300px;
+    background-color:#f5e7df;
+}
+
+#wrap{
+    width: 50%;
+    margin:0 auto;
+    height: 200px;
+}
+
+#wrap #email{
+    width: 49%;
+    float:left;
+    border-right: #c7ac9d;
+}
+    
+#wrap #sub_menu{
+    margin-top:40px;
+    width: 49%;
+    float:right;
+    border-left: 2px solid #c7ac9d;
+}
+
+#email_title{
+    margin-top:40px;
+    font-size:20px;
+}
+
+table{
+    margin-top:10px;
+    border-bottom: 1px solid #c7ac9d;
+}
+
+#left_form{
+    width: 30px;
+}
+
+
+td img{
+    width: 30px;
+    height: 30px;
+    margin-right:10px;
+}
+
+input{
+    background:none;
+    border:none;
+    width: 350px;
+    height: 40px;
+}
+
+input::placeholder {
+    font-size:17px;
+  }
+
+button{
+    width: 400px;
+    height: 40px;
+    margin-top:20px;
+    margin-bottom:50px;
+    background-color:#e7cdc0;
+    border:none;
+  }
+
+  #copy{
+    color:#959089;
+  }
+
+  #menu1{
+      width: 20%;
+      float:left;
+      padding:30px;
+      margin-left:20px;
+  }
+
+  #menu1 li, #menu2 li{
+      padding:10px;
+      color:#959089;
+  }
+
+  #menu2{
+    width: 30%;
+    float:right;
+    padding:30px;
+  }
+
+  #icon{
+      width: 25px;
+      height: 25px;
+      margin-left:1800px;
+      margin-top:60px;
+      z-index:1;
+      position:fixed;
+  }
